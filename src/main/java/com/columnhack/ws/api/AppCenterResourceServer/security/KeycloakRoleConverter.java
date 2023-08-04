@@ -13,7 +13,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 
-@Component
 public class KeycloakRoleConverter implements Converter<Jwt, Collection<GrantedAuthority>> {
 
     @Override
